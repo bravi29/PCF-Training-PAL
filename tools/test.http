@@ -1,0 +1,14 @@
+@url=http://localhost:5000
+###--adsfasfd
+GET {{url}}/time-entries
+
+###--adsfasfd
+POST {{url}}/time-entries
+Content-Type: application/json
+
+{
+    "projectId": 100,
+    "userId": 2,
+    "date": "2019-01-01T00:00:00",
+    "hours": 8
+}
